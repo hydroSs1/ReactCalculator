@@ -1,9 +1,8 @@
-import "./ButtonBox.css";
 import "../App.css";
 
 
-function ButtonBox(children){
-    return(<div classname = "buttonBox">{children}</div>);
+function ButtonBox(props){
+    return(<div className = "buttonBox"> {props.children} </div>);
 }
 
 export default ButtonBox;
