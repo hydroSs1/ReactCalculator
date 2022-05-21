@@ -8,7 +8,6 @@ import Button from "./Button";
 function CalculatorContainer(props){
     return(<div className = "wrapper">
             {props.children}
-            
            </div>);
 }
 

@@ -5,4 +5,5 @@ function CalculatorScreen(props){
     return(<Textfit className = "screen" mode = "single" max = {70}>{props.value}</Textfit>);
 }
 
+
 export  default CalculatorScreen;
